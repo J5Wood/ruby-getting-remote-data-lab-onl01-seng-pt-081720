@@ -1,4 +1,5 @@
 require 'net/http'
+require 'json'
 
 class GetRequester
 
@@ -14,7 +15,7 @@ class GetRequester
   end
 
   def parse_json
-
+    JSON.parse(self.get_response_body)
   end
 
 end
