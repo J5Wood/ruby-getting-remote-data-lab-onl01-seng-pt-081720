@@ -1,4 +1,5 @@
 require 'net/http'
+
 class GetRequester
 
   attr_reader :url
