@@ -1,4 +1,4 @@
-# Write your code here
+require 'net/http'
 class GetRequester
 
   attr_reader :url
